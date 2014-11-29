@@ -8,7 +8,9 @@ This iOS specific package adds true pitch shifting to Unity thanks to The DSP Di
 * Both mono and stereo pitch shifters included <br>
 * Plays nice with G-Audio's modular I/O system <br>
 
-<br>*** Getting started ***</br>
+
+Getting started
+---------------
 
 1) In the project window, move G-Audio_FreePitchShifter/Plugins/GATDiracFree.mm to Plugins/iOS
 
@@ -30,7 +32,8 @@ Finally, if you use DiracLE ( the free version of the library ), it only support
 it will set the sample rate to 44.1 kHz for you.
 
 
-<b>*** Release Notes ***</b>
+Release Notes
+-------------
 
 1.0
 
