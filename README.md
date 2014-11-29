@@ -1,14 +1,14 @@
-----------------------------------------------
-           G-Audio iOS Pitch Shift
-       Copyright © 2014 Gregorio Zanon
-               Version 1.0
-          www.G-Audio-Unity.com
-        support@g-audio-unity.com
-----------------------------------------------
+PitchShifter for Unity iOS
+==========================
 
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-							*** Setting Up ***
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+This iOS specific package adds true pitch shifting to Unity thanks to The DSP Dimension's famous library Dirac. 
+
+* Pitch shift any AudioSource( including microphone ) <br>
+* Pitch shift the AudioListener <br>
+* Both mono and stereo pitch shifters included <br>
+* Plays nice with G-Audio's modular I/O system <br>
+
+<br>*** Getting started ***</br>
 
 1) In the project window, move G-Audio_FreePitchShifter/Plugins/GATDiracFree.mm to Plugins/iOS
 
@@ -30,11 +30,9 @@ Finally, if you use DiracLE ( the free version of the library ), it only support
 it will set the sample rate to 44.1 kHz for you.
 
 
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-							*** Release Notes ***
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+<b>*** Release Notes ***</b>
 
-*** 1.0 ***
+1.0
 
 Components: 
 
