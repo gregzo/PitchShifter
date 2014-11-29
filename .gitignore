@@ -1,1 +1,12 @@
+# Ignore the following files
+# --------------------------
+# Unity3D specific
+#
+**/Library/*
+**/Temp/*
+**/*.csproj
+**/*.unityproj
+**/*.sln
+**/*.userprefs
+**/*.pidb
 *.*.meta
